@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "ovslib",
+  "version": "${version}",
+  "name": "OverseerLib",
+  "description": "A Quick owo-ui Utility Mod, implemented with the features and tools that are useful to me.",
+  "authors": [
+    "Type-32"
+  ],
+  "contact": {
+    "repo": "https://github.com/Type-32/OverseerLib"
+  },
+  "license": "MIT",
+  "icon": "assets/ovslib/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "cn.crtlprototypestudios.ovslib.client.OverseerLibClient"
+    ],
+    "main": [
+      "cn.crtlprototypestudios.ovslib.OverseerLib"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
